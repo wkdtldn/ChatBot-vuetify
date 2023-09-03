@@ -6,25 +6,7 @@ app = Flask(__name__)
 
 CORS(app)
 
-openai.api_key = "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"
-msgList = [
-    {
-        "name": "John",
-        "msg": [],
-    },
-    {
-        "name": "Jane",
-        "msg": [],
-    },
-    {
-        "name": "Kevin",
-        "msg": [],
-    },
-    {
-        "name": "Andrew",
-        "msg": [],
-    },
-]
+openai.api_key = "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"
 
 
 @app.route("/", methods=["GET", "POST"])
